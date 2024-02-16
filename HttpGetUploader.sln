@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpGetUploader.Server", "HttpGetUploader.Server\HttpGetUploader.Server.csproj", "{50774852-FF4E-4965-9ED4-06583A26C309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpGetUploader.ClientApp", "HttpGetUploader.ClientApp\HttpGetUploader.ClientApp.csproj", "{3B9AB617-F171-4FD1-BB05-1D631C0E4028}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{078C69C0-3141-4E4C-8BCD-88BDF8CADEA1}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50774852-FF4E-4965-9ED4-06583A26C309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50774852-FF4E-4965-9ED4-06583A26C309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50774852-FF4E-4965-9ED4-06583A26C309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50774852-FF4E-4965-9ED4-06583A26C309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9AB617-F171-4FD1-BB05-1D631C0E4028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9AB617-F171-4FD1-BB05-1D631C0E4028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9AB617-F171-4FD1-BB05-1D631C0E4028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9AB617-F171-4FD1-BB05-1D631C0E4028}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0792266C-8138-4A63-869C-B4C5C18FA696}
+	EndGlobalSection
+EndGlobal
